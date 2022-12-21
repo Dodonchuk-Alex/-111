@@ -1,0 +1,45 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+section {
+    text-align: justify;
+}
+header figcaption {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.main_picture {
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+img {
+    width: 270px;
+    height: 200px;
+    vertical-align: bottom;
+}
+.classic {
+    width: 270px;
+    height: 380px;
+    vertical-align: bottom;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1, h2 {
+    text-align: center;
+    
+}
+span {
+    font-weight: bold;
+}
+.facts {
+    line-height: 1.8;
+}
