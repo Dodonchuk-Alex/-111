@@ -7,6 +7,10 @@ body {
     vertical-align: baseline;
 }
 
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em
+}
 .version_div {
 /*position: absolute;*/
 width: 82px;
@@ -67,15 +71,116 @@ opacity: 0.3;
 }
 
 main {
-position: relative;
-width: 1488px;
-height: 1430px;
-padding: 228px 24px 212px 24px;
+    position: relative;
+    width: 1440px;
+    height: 974px;
+    padding: 228px 24px 212px 24px;
+}
+.all_banners{
+    width: 1440px;
+    height: 1440px;
 }
 
 .first_banner {
-width: 1440px;
-height: 72px;
 
-background: #0B2239;
+    height: 72px;
+    background: #0B2239;
+}
+
+div.first_banner_text_and_buttons {
+    width: 960px;
+    height: 40px;
+    padding: 16px 120px;
+    display: flex;
+    vertical-align: middle
+}
+.first_banner_text {
+    width: 922px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.first_banner_buttons {
+    margin-left: 32px;
+    width: 246px;
+    height: 36px;
+    display: flex;
+}
+.first_banner_button_1 {
+    
+    width: 106px;
+    height: 36px;
+    
+}
+.link {
+    margin: 8px 10px;
+    width: 86px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-decoration-line: underline;
+
+color: #4AD295;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.button_accept_all {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 10px;
+gap: 10px;
+
+width: 130px;
+height: 36px;
+
+background: #4AD295;
+border-radius: 2px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.button_accept_all > span {
+    width: 110px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
