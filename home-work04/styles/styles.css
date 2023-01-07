@@ -1,0 +1,352 @@
+
+body {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px; 
+    min-width: 1440px;
+ }
+ a {
+    text-decoration: none;
+ }
+ a:hover {
+    cursor: pointer;
+ }
+.app_download_section {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    
+    background: #ED4C5C;
+}
+
+h1 {
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+}
+.app_download_section p {
+    position: absolute;
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.first {
+    position: absolute;
+    width: 383px;
+    height: 267px;
+    left: 691px;
+    top: 116px;
+    background: #C4C4C4;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.second {
+    position: absolute;
+    width: 383px;
+    height: 267px;
+    left: 841px;
+    top: 116px;
+    background: #C4C4C4;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.third {
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 735px;
+    top: 94px;
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+.logos {
+    display: flex;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+    justify-content: space-between;
+}
+h2 {
+    position: absolute;
+width: 445px;
+height: 107px;
+left: 176px;
+top: 617px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+
+color: #000000;
+}
+.contact p {
+    position: absolute;
+width: 434px;
+height: 64px;
+left: 176px;
+top: 713px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: justify;
+
+color: #000000;
+
+}
+.input_forms {
+    width: 540px;
+    height: 305px;
+    margin: 117px 165px 78px 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    color: rgba(19, 39, 67, 0.5);
+}
+.FirstName {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 617px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+.LastName {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 1020px;
+    top: 617px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+.tel {
+    box-sizing: border-box;
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 701px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+.input_ration {
+    box-sizing: border-box;
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 785px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+.submit {
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 872px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+}
+.adress {
+position: absolute;
+width: 259px;
+height: 264px;
+left: 161px;
+top: 1130px;
+}
+ h3 {
+    width: 65px;
+    height: 22px;
+    margin: 0px 0px 33px 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #101010;
+
+}
+.txt {
+    width: 254px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0px 0px 141px 5px;
+    text-align: left;
+}
+.copyright {
+    width: 155px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin: 0px 0px 86px 5px;
+}
+.services {
+    position: absolute;
+    width: 254px;
+    height: 164px;
+    left: 450px;
+    top: 1130px;
+
+}
+.servis_list {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+    display: list-item;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.servis_list a {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.get_in_touch {
+    position: absolute;
+    width: 122px;
+    height: 128px;
+    left: 734px;
+    top: 1130px;
+}
+.get_intouch_title {
+    width: 101px;
+    height: 22px;   
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #101010;
+}
+.mail {
+    width: 122px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #101010;
+}
+.tell {
+    width: 96px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #121212;
+}
+.support {
+    position: absolute;
+width: 96px;
+height: 22px;
+left: 1022px;
+top: 1130px;
+}
+.support h3 {
+    width: 97px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #101010;
+
+}
