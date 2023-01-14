@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    min-width: 1440px;
+    min-height: 3000px;
+}
+main {
+    padding: 10px 0px 0px 10px;
+    background-color: #202124;
+    width: 100%;
+    min-height: 3000px;
+}
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    width: 900px;
+    margin: 30px;
+    background-color: #222325;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 5px;
+}
+#left {
+    width: 460px;
+}
+
+#centr {
+    width: 280px;
+}
+
+#right {
+    width: 245px;
+}
+tr {
+    border-top: 1px solid #777575;
+}
+ 
+th, td {
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+    color: rgba(255,255,255,.5);
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+th {
+    line-height: 20px;
+    font-size: 1em;
+    color: #ffffff;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #777575;
+}
+ 
+.dots {
+    width: 25px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 75%;
+}
+.arrow_row, .checkbox_item {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+p {
+    margin: 0px 0px 0px 0px;
+}
+.arrow {
+    margin: 4px 0px 0px 8px;
+    height: 0px;
+    width: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #ffffff;
+}
+.name_box {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+input[type="checkbox"] {
+    margin: 0px 5px 0px 0px;
+    opacity: 0.4;
+}
+input[type="search"] {
+    height: 80%;
+    width: 98%;
+    font-size: 16px;
+    background-image: url(../images/magnifier.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    padding-left: 30px;
+    background-color: #414141;
+    border-radius: 8px;
+    color: aliceblue;
+    border: 1px solid rgb(131, 130, 130);
+}
+
+input[type="search"]:focus {
+    border: 1px solid #777575;
+    outline: none;
+    background: none;
+    padding: 0px;
+    color: #ffffff;
+    width: 98%;
+    padding-left: 10px;
+    background-color: #414141;
+}
+img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; 
+}
